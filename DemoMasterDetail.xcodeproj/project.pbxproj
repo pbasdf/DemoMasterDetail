@@ -10,10 +10,16 @@
 		4ACD29441C92FA650038C64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD29431C92FA650038C64B /* AppDelegate.swift */; };
 		4ACD29471C92FA650038C64B /* DemoMasterDetail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD29451C92FA650038C64B /* DemoMasterDetail.xcdatamodeld */; };
 		4ACD29491C92FA650038C64B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD29481C92FA650038C64B /* MasterViewController.swift */; };
-		4ACD294B1C92FA650038C64B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD294A1C92FA650038C64B /* DetailViewController.swift */; };
 		4ACD294E1C92FA660038C64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACD294C1C92FA660038C64B /* Main.storyboard */; };
 		4ACD29501C92FA660038C64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACD294F1C92FA660038C64B /* Assets.xcassets */; };
 		4ACD29531C92FA660038C64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACD29511C92FA660038C64B /* LaunchScreen.storyboard */; };
+		4ACD295B1C92FFC70038C64B /* AddFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD295A1C92FFC70038C64B /* AddFolderViewController.swift */; };
+		4ACD29601C9301550038C64B /* List+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD295C1C9301550038C64B /* List+CoreDataProperties.swift */; };
+		4ACD29611C9301550038C64B /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD295D1C9301550038C64B /* List.swift */; };
+		4ACD29621C9301550038C64B /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD295E1C9301550038C64B /* Folder+CoreDataProperties.swift */; };
+		4ACD29631C9301550038C64B /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD295F1C9301550038C64B /* Folder.swift */; };
+		4ACD29651C93022B0038C64B /* DetailChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD29641C93022B0038C64B /* DetailChildTableViewController.swift */; };
+		4ACD29671C9304B20038C64B /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD29661C9304B20038C64B /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +27,17 @@
 		4ACD29431C92FA650038C64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACD29461C92FA650038C64B /* DemoMasterDetail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoMasterDetail.xcdatamodel; sourceTree = "<group>"; };
 		4ACD29481C92FA650038C64B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4ACD294A1C92FA650038C64B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4ACD294D1C92FA660038C64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ACD294F1C92FA660038C64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACD29521C92FA660038C64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ACD29541C92FA660038C64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACD295A1C92FFC70038C64B /* AddFolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFolderViewController.swift; sourceTree = "<group>"; };
+		4ACD295C1C9301550038C64B /* List+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "List+CoreDataProperties.swift"; path = "../List+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4ACD295D1C9301550038C64B /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = ../List.swift; sourceTree = "<group>"; };
+		4ACD295E1C9301550038C64B /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Folder+CoreDataProperties.swift"; path = "../Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4ACD295F1C9301550038C64B /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Folder.swift; path = ../Folder.swift; sourceTree = "<group>"; };
+		4ACD29641C93022B0038C64B /* DetailChildTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailChildTableViewController.swift; sourceTree = "<group>"; };
+		4ACD29661C9304B20038C64B /* AddListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,15 @@
 		4ACD29421C92FA650038C64B /* DemoMasterDetail */ = {
 			isa = PBXGroup;
 			children = (
+				4ACD295C1C9301550038C64B /* List+CoreDataProperties.swift */,
+				4ACD295D1C9301550038C64B /* List.swift */,
+				4ACD295E1C9301550038C64B /* Folder+CoreDataProperties.swift */,
+				4ACD295F1C9301550038C64B /* Folder.swift */,
 				4ACD29431C92FA650038C64B /* AppDelegate.swift */,
 				4ACD29481C92FA650038C64B /* MasterViewController.swift */,
-				4ACD294A1C92FA650038C64B /* DetailViewController.swift */,
+				4ACD29661C9304B20038C64B /* AddListViewController.swift */,
+				4ACD295A1C92FFC70038C64B /* AddFolderViewController.swift */,
+				4ACD29641C93022B0038C64B /* DetailChildTableViewController.swift */,
 				4ACD294C1C92FA660038C64B /* Main.storyboard */,
 				4ACD294F1C92FA660038C64B /* Assets.xcassets */,
 				4ACD29511C92FA660038C64B /* LaunchScreen.storyboard */,
@@ -142,9 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACD29441C92FA650038C64B /* AppDelegate.swift in Sources */,
+				4ACD29621C9301550038C64B /* Folder+CoreDataProperties.swift in Sources */,
+				4ACD29601C9301550038C64B /* List+CoreDataProperties.swift in Sources */,
+				4ACD29671C9304B20038C64B /* AddListViewController.swift in Sources */,
+				4ACD29611C9301550038C64B /* List.swift in Sources */,
+				4ACD295B1C92FFC70038C64B /* AddFolderViewController.swift in Sources */,
 				4ACD29471C92FA650038C64B /* DemoMasterDetail.xcdatamodeld in Sources */,
 				4ACD29491C92FA650038C64B /* MasterViewController.swift in Sources */,
-				4ACD294B1C92FA650038C64B /* DetailViewController.swift in Sources */,
+				4ACD29651C93022B0038C64B /* DetailChildTableViewController.swift in Sources */,
+				4ACD29631C9301550038C64B /* Folder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
